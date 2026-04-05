@@ -38,7 +38,7 @@ function Login() {
       }
 
       localStorage.setItem("user", JSON.stringify(data));
-      navigate("/profile");
+      navigate("/upcomingevents");
     } catch (err) {
       setError("Server error. Please try again.");
     } finally {
